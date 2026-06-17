@@ -1,0 +1,18 @@
+site_name: Charakterystyka Próby Statystycznej
+theme: 
+  name: mkdocs
+  color_mode: dark
+
+nav:
+  - Strona główna: index.md
+  - Temat projektu: temat.md
+  - Autorzy: autorzy.md
+  - Teoria: teoria.md
+  - Przykłady: przyklady.md
+
+markdown_extensions:
+  - mdx_math:
+      enable_dollar_delimiter: True
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
